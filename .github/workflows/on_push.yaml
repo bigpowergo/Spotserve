@@ -30,7 +30,7 @@ jobs:
 
       - name: Build with Gradle
 
-        run: chmod -R 777 * &&./gradlew clean build
+        run: chmod -R 777 * &&./gradlew clean build --stacktrace
 
       - name: Upload
 
